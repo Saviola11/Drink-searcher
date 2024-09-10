@@ -36,7 +36,7 @@ body {
 	height: 360px;
 	padding: 20px 40px;
 	font-family: 'Dancing Script', cursive;
-	background-image: url(/hero-img.jpg);
+	background-image: url('hero-img.jpg');
 	background-size: cover;
 	background-position: center;
 	z-index: 0;
@@ -50,38 +50,36 @@ body {
 	top: 0;
 	left: 0;
 }
-h1{
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 50px;
+h1 {
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 50px;
 }
 
-.search{
-    padding: 10px 20px;
-    margin-bottom: 40px;
-    width: 100%;
-    font-size: 16px;
-    border-radius: 7px;
+.search {
+	padding: 10px 20px;
+	margin-bottom: 40px;
+	width: 100%;
+	font-size: 16px;
+	border-radius: 7px;
 	background-color: rgba(255, 255, 255, 0.85);
-
 }
 
-.drink-list{
-    padding: 20px 40px;
-    }
-    h2{
-        padding: 30px 0;
-    }
-    ul{
-        margin-bottom: 30px;
-        list-style: none;
-        font-size: 23px;
-    }
-    li{
-        padding: 8px 30px;
-        border-bottom: 1px solid rgb(226, 226, 226) ;
-    }
-    li:last-child{
-       
-        border-bottom: 0 ;
-    }
+.drink-list {
+	padding: 20px 40px;
+}
+h2 {
+	padding: 30px 0;
+}
+ul {
+	margin-bottom: 30px;
+	list-style: none;
+	font-size: 23px;
+}
+li {
+	padding: 8px 30px;
+	border-bottom: 1px solid rgb(226, 226, 226);
+}
+li:last-child {
+	border-bottom: 0;
+}
